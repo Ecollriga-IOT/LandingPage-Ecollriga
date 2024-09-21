@@ -11,19 +11,19 @@ export const Services = () => {
           <h3 className="text-xl font-semibold mb-2">Plan para Agricultores</h3>
           <p className="text-gray-700 mb-4 text-justify">
             Este plan está diseñado para satisfacer las necesidades de los
-            agricultores individuales que buscan automatizar su sistema de
+            agricultores que buscan automatizar su sistema de
             riego.
           </p>
           <div className="flex justify-center">
             <ul className="list-disc list-inside mb-4 text-justify">
-              <li>Acceso a la aplicación SmartSprout</li>
+              <li>Acceso a la aplicación RegadIOT</li>
               <li>Sensor IoT para monitoreo del suelo</li>
               <li>Notificaciones en tiempo real</li>
               <li>Soporte técnico dedicado</li>
             </ul>
           </div>
           <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-            <div class="absolute inset-0 w-3 bg-[#04BF8A] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <div class="absolute inset-0 w-3 bg-[#077eff] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span class="relative text-black group-hover:text-white">
               ¡Suscribirse ahora!
             </span>
@@ -40,14 +40,14 @@ export const Services = () => {
           </p>
           <div className="flex justify-center">
             <ul className="list-disc list-inside mb-4 text-justify">
-              <li>Acceso a la aplicación SmartSprout</li>
+              <li>Acceso a la aplicación RegadIOT</li>
               <li>Múltiples sensores IoT para monitoreo del suelo y clima</li>
               <li>Panel de control personalizado para análisis de datos</li>
               <li>Asistencia remota para configuración y mantenimiento</li>
             </ul>
           </div>
           <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-            <div class="absolute inset-0 w-3 bg-[#04BF8A] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <div class="absolute inset-0 w-3 bg-[#077eff] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span class="relative text-black group-hover:text-white">
               ¡Suscribirse ahora!
             </span>

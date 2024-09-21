@@ -9,12 +9,12 @@ export const Hero = () => {
     >
       <div className="container mx-auto flex flex-col lg:flex-row">
         <div className="max-w-[800px] md:mx-auto mx-4 text-center flex flex-col justify-center">
-          <p className="text-[#008F8C] font-bold p-2 font-sans">
+          <p className="text-[#608be1] font-bold p-2 font-sans">
             ¡IMPULSA TU RENDIMIENTO AGRÍCOLA CON UN RIEGO INTELIGENTE Y
             EFICIENTE!
           </p>
           <h1 className="font-sans md:text-5xl sm:text-5xl text-4xl font-bold md:py-6">
-            Descubre SmartSprout
+            Descubre RegadIOT
           </h1>
           <div className="felx justify-center items-center py-6">
             <p className="md:text-4xl sm:text-4xl text-xl font-bold ">
@@ -33,7 +33,7 @@ export const Hero = () => {
           </p>
           <span>
             <a href="#about">
-              <button className="group h-12 w-48 overflow-hidden rounded-2xl bg-[#04BF8A] text-lg my-6 mx-auto py-3 font-bold mt-20 text-black hover:bg-[#079F73]">
+              <button className="group h-12 w-48 overflow-hidden rounded-2xl bg-[#077eff] text-lg my-6 mx-auto py-3 font-bold mt-20 text-black hover:bg-[#055de5]">
                 Descubrir
               </button>
             </a>
@@ -41,7 +41,7 @@ export const Hero = () => {
         </div>
         <div className="lg:w-1/2 md:mx-0 mx-5">
           <img
-            src="https://hablemosdeempresas.com/wp-content/uploads/sites/2/2018/08/soluciones-iot-agricultura.jpg"
+            src="https://acortar.link/DOEZaZ"
             alt="hero"
             className="w-full h-auto object-cover rounded-lg shadow-lg"
           />

@@ -17,13 +17,13 @@ const Contact = () => {
                             type='email'
                             placeholder='Ingresar Correo'
                         />
-                        <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
+                        <button className='bg-[#062dd9] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
                             Notificarme
                         </button>
                     </div>
                     <p>
                         Nos preocupamos por la protección de tus datos. Lee nuestra{' '}
-                        <span className='text-[#00df9a]'>Política de Privacidad.</span>
+                        <span className='text-[#062dd9]'>Política de Privacidad.</span>
                     </p>
                 </div>
             </div>

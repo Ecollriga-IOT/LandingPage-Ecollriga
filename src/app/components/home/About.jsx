@@ -2,9 +2,9 @@ import React from "react";
 
 export const About = () => {
     return (
-        <div id="about" className="w-full bg-[#9effe4]">
+        <div id="about" className="w-full bg-[#c9dcf7]">
             <div className="container mx-auto py-12 px-4">
-                <h2 className="text-3xl font-bold mb-6 md:text-start text-center">Acerca de SmartSprout</h2>
+                <h2 className="text-3xl font-bold mb-6 md:text-start text-center">Acerca de RegadIOT</h2>
 
                 <div className="flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 mb-6 md:mb-0 flex justify-center">
@@ -17,22 +17,22 @@ export const About = () => {
                     <div className="md:w-1/2 md:ml-6">
                         <div className="w-[80%] mx-auto text-center">
                             <p className="text-base mb-4 text-justify">
-                                Nuestro proyecto se enfoca en optimizar la forma en que se
-                                gestiona el riego. Utilizando sensores IoT y tecnología
-                                inteligente, hemos desarrollado un sistema de riego automatizado
-                                que optimiza el uso del agua al tiempo que maximiza el
-                                rendimiento de los cultivos.
+                                Nuestro proyecto está orientado a mejorar la gestión del riego. 
+                                A través del uso de sensores IoT y tecnología inteligente, 
+                                hemos creado un sistema automatizado que optimiza el consumo de agua
+                                mientras maximiza la productividad de los cultivos.
                             </p>
                             <p className="text-base mb-4 text-justify">
-                                Con nuestras aplicaciones web y móviles, los usuarios pueden
-                                monitorear y controlar remotamente sus sistemas de riego desde
-                                cualquier lugar, asegurando que sus cultivos reciban la cantidad
-                                precisa de agua que necesitan, ahorrando tiempo y recursos.
+                                Con nuestras aplicaciones web y móviles, los usuarios tienen la 
+                                capacidad de supervisar y gestionar sus sistemas de riego de forma 
+                                remota desde cualquier ubicación, garantizando que los cultivos reciban 
+                                la cantidad exacta de agua necesaria, lo que permite ahorrar tiempo y recursos.
                             </p>
                             <p className="text-base text-justify">
-                                Nuestra misión es empoderar a los agricultores con soluciones de
-                                riego eficientes y sostenibles, contribuyendo en última
-                                instancia a una industria agrícola más resiliente y productiva.
+                                
+                                Nuestra misión es brindar a los agricultores soluciones de riego eficientes y 
+                                sostenibles, lo que a su vez contribuirá a una industria agrícola más resistente y
+                                productiva.
                             </p>
                         </div>
                     </div>
@@ -48,21 +48,19 @@ export const About = () => {
                     <div className="md:w-1/2 md:mr-6">
                         <div className="w-[80%] mx-auto text-center">
                             <p className="text-base mb-4 text-justify">
-                                Nuestras aplicaciones web y móviles proporcionan interfaces
-                                intuitivas para que los usuarios monitoreen datos de sensores,
-                                establezcan horarios de riego, y reciban alertas y
-                                notificaciones en tiempo real.
+                                Nuestras aplicaciones web y móviles ofrecen interfaces fáciles de 
+                                usar que permiten a los usuarios supervisar datos de sensores, 
+                                programar horarios de riego y recibir alertas y notificaciones en tiempo real.
                             </p>
                             <p className="text-base mb-4 text-justify">
-                                Ya sea que administres un pequeño jardín o una operación
-                                agrícola a gran escala, nuestra plataforma personalizable se
-                                adapta a tus necesidades, brindándote control e información
-                                sobre tu sistema de riego como nunca antes.
+                                Ya sea que estés a cargo de un pequeño jardín o de una gran operación agrícola,
+                                nuestra plataforma personalizable se ajusta a tus necesidades, brindándote un control
+                                y una información sin precedentes sobre tu sistema de riego.
                             </p>
                             <p className="text-base text-justify">
-                                Únete a nosotros en abrazar el futuro de la agricultura, donde
-                                la tecnología se encuentra con la sostenibilidad para crear
-                                prácticas agrícolas más inteligentes y eficientes.
+                                Acompáñanos en la transición hacia el futuro de la agricultura, donde 
+                                la tecnología se combina con la sostenibilidad para fomentar prácticas 
+                                agrícolas más inteligentes y eficientes.
                             </p>
                         </div>
                     </div>

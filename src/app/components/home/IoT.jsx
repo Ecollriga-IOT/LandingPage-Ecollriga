@@ -12,9 +12,8 @@ const IoT = () => {
           <p className="text-lg mb-4 text-justify">
             El Internet de las Cosas (IoT) se refiere a la interconexión de
             dispositivos físicos a través de internet, permitiéndoles recopilar
-            y compartir datos. En la agricultura, IoT está revolucionando la
-            forma en que se gestionan los cultivos, brindando beneficios
-            significativos a los agricultores.
+            y compartir datos. En el ámbito agrícola, el IoT está transformando 
+            la gestión de los cultivos, ofreciendo importantes ventajas a los agricultores.
           </p>
           <p className="text-lg mb-4 font-semibold">
             Impacto de IoT en Agricultura:
@@ -22,8 +21,7 @@ const IoT = () => {
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <div class="p-4 bg-white rounded-lg shadow-md">
               <p className="text-lg mb-2">
-                Aumento de la eficiencia en el uso de recursos como agua y
-                energía.
+                Incremento en la eficacia del uso de recursos como agua y energía.
               </p>
             </div>
             <div class="p-4 bg-white rounded-lg shadow-md">
@@ -64,7 +62,7 @@ const IoT = () => {
                 href="https://www.elaisian.com/es/2023/02/17/el-internet-de-las-cosas-en-la-agricultura/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#079F73] font-semibold underline"
+                className="text-[#055de5] font-semibold underline"
               >
                 Elaisian.com
               </a>
@@ -82,7 +80,7 @@ const IoT = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-            <div className="flex items-center justify-center h-12 w-12 bg-[#04BF8A] text-white rounded-full">
+            <div className="flex items-center justify-center h-12 w-12 bg-[#077eff] text-white rounded-full">
               1
             </div>
             <p className="text-lg mt-4">
@@ -92,7 +90,7 @@ const IoT = () => {
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-            <div className="flex items-center justify-center h-12 w-12 bg-[#04BF8A] text-white rounded-full">
+            <div className="flex items-center justify-center h-12 w-12 bg-[#077eff] text-white rounded-full">
               2
             </div>
             <p className="text-lg mt-4">
@@ -102,7 +100,7 @@ const IoT = () => {
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-            <div className="flex items-center justify-center h-12 w-12 bg-[#04BF8A] text-white rounded-full">
+            <div className="flex items-center justify-center h-12 w-12 bg-[#077eff] text-white rounded-full">
               3
             </div>
             <p className="text-lg mt-4">
@@ -113,7 +111,7 @@ const IoT = () => {
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-            <div className="flex items-center justify-center h-12 w-12 bg-[#04BF8A] text-white rounded-full">
+            <div className="flex items-center justify-center h-12 w-12 bg-[#077eff] text-white rounded-full">
               4
             </div>
             <p className="text-lg mt-4">
@@ -124,7 +122,7 @@ const IoT = () => {
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-            <div className="flex items-center justify-center h-12 w-12 bg-[#04BF8A] text-white rounded-full">
+            <div className="flex items-center justify-center h-12 w-12 bg-[#077eff] text-white rounded-full">
               5
             </div>
             <p className="text-lg mt-4">

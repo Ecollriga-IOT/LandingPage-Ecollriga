@@ -10,37 +10,37 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 bg-white">
       <div className="flex justify-between items-center h-12 w-full mx-auto px-8">
-        <h1 className="text-3xl font-bold text-[#04BF8A]">
-          <a href="#home">SmartSprout</a>
+        <h1 className="text-3xl font-bold text-[#077eff]">
+          <a href="#home">RegadIOT</a>
         </h1>
         <ul className="hidden md:flex">
           <li className="p-4">
-            <a className="hover:text-[#04BF8A]" href="#home">
+            <a className="hover:text-[#077eff]" href="#home">
               Home
             </a>
           </li>
           <li className="p-4">
-            <a className="hover:text-[#04BF8A]" href="#about">
+            <a className="hover:text-[#077eff]" href="#about">
               About
             </a>
           </li>
           <li className="p-4">
-            <a className="hover:text-[#04BF8A]" href="#services">
+            <a className="hover:text-[#077eff]" href="#services">
               Services
             </a>
           </li>
           <li className="p-4">
-            <a className="hover:text-[#04BF8A]" href="#iot">
+            <a className="hover:text-[#077eff]" href="#iot">
               IoT
             </a>
           </li>
           <li className="p-4">
-            <a className="hover:text-[#04BF8A]" href="#team">
+            <a className="hover:text-[#077eff]" href="#team">
               Team
             </a>
           </li>
           <li className="p-4">
-            <a className="hover:text-[#04BF8A]" href="#contact">
+            <a className="hover:text-[#077eff]" href="#contact">
               Contact
             </a>
           </li>
@@ -55,7 +55,7 @@ const Navbar = () => {
           </li>
           <li className="p-4">
             <a>
-              <button className="bg-[#04BF8A] w-[100px] rounded-md font-medium py-1 text-black transition duration-300 ease-out hover:bg-[#079F73]">
+              <button className="bg-[#077eff] w-[100px] rounded-md font-medium py-1 text-black transition duration-300 ease-out hover:bg-[#055de5]">
                 Sign Up
               </button>
             </a>
@@ -69,32 +69,32 @@ const Navbar = () => {
         <div className="md:hidden bg-white shadow-md">
           <ul className="pt-4 uppercase font-semibold">
             <li className="p-2 flex justify-center border-b">
-              <a className="hover:text-[#04BF8A]" href="#home">
+              <a className="hover:text-[#077eff]" href="#home">
                 Home
               </a>
             </li>
             <li className="p-2 flex justify-center border-b">
-              <a className="hover:text-[#04BF8A]" href="#about">
+              <a className="hover:text-[#077eff]" href="#about">
                 About
               </a>
             </li>
             <li className="p-2 flex justify-center border-b">
-              <a className="hover:text-[#04BF8A]" href="#services">
+              <a className="hover:text-[#077eff]" href="#services">
                 Services
               </a>
             </li>
             <li className="p-2 flex justify-center border-b">
-              <a className="hover:text-[#04BF8A]" href="#iot">
+              <a className="hover:text-[#077eff]" href="#iot">
                 IoT
               </a>
             </li>
             <li className="p-2 flex justify-center border-b">
-              <a className="hover:text-[#04BF8A]" href="#team">
+              <a className="hover:text-[#077eff]" href="#team">
                 Team
               </a>
             </li>
             <li className="p-2 flex justify-center border-b">
-              <a className="hover:text-[#04BF8A]" href="#contact">
+              <a className="hover:text-[#077eff]" href="#contact">
                 Contact
               </a>
             </li>
@@ -104,7 +104,7 @@ const Navbar = () => {
               </button>
             </li>
             <li className="p-2 flex justify-center">
-              <button className="bg-[#04BF8A] w-[80px] rounded-md font-medium py-1 text-black transition duration-300 ease-out hover:bg-[#079F73]">
+              <button className="bg-[#077eff] w-[80px] rounded-md font-medium py-1 text-black transition duration-300 ease-out hover:bg-[#055de5]">
                 <a>Sign Up</a>
               </button>
             </li>

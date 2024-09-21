@@ -1,45 +1,45 @@
 import React from "react";
-import lorenzo from "../../../assets/lorenzo.jpg";
-import ronald from "../../../assets/ronald.jpg";
-import arnol from "../../../assets/arnol.jpg";
-import alessandro from "../../../assets/alessandro.jpg";
-import leo from "../../../assets/leo.jpg";
+import ricardo from "../../../assets/ricardo.PNG";
+import alyne from "../../../assets/alyne.PNG";
+import mauricio from "../../../assets/mauricio.PNG";
+import jorge from "../../../assets/jorge.PNG";
+import nicolas from "../../../assets/nicolas.PNG";
 
 export const Team = () => {
   const teamMembers = [
     {
-      name: "Leonel Ortega",
+      name: "Ricardo Maguiña",
       role: "Developer",
-      image: leo,
-      id: "u202115733",
+      image: ricardo,
+      id: "u202121858",
       tags: ["Backend", "Frontend", "IoT", "Software Development"],
     },
     {
-      name: "Arnol Cáceres",
+      name: "Alyne Regalado",
       role: "Developer",
-      image: arnol,
-      id: "u20201b338",
+      image: alyne,
+      id: "u20201A976",
       tags: ["Backend", "Software Development", "IoT"],
     },
     {
-      name: "Lorenzo Navarro",
+      name: "Mauricio Salas",
       role: "Developer",
-      image: lorenzo,
-      id: "u201713141",
+      image: mauricio,
+      id: "u20201A976",
       tags: ["Backend", "Software Development", "IoT"],
     },
     {
-      name: "Ronald Siancas",
+      name: "Jorge Ponce",
       role: "Developer",
-      image: ronald,
-      id: "U202020594",
+      image: jorge,
+      id: "u202120471",
       tags: ["Frontend", "Software Development"],
     },
     {
-      name: "Alessandro Vega",
+      name: "Nicolas Haro",
       role: "Developer",
-      image: alessandro,
-      id: "U201910225",
+      image: nicolas,
+      id: "U201910045",
       tags: ["Frontend", "Backend", "IoT"],
     },
   ];
@@ -63,11 +63,11 @@ export const Team = () => {
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
               <p className="text-gray-600">{member.role}</p>
-              <h4 className="text-sm font-semibold mt-4">Contacto</h4>
+              <h4 className="text-l font-semibold mt-4">Contacto</h4>
               <p className="text-gray-600">
                 Correo:{" "}
                 <a
-                  className="text-[#079F73] font-semibold"
+                  className="text-[#055de5] font-semibold"
                   href={`mailto:${member.id
                     .split(" ")[0]
                     .toLowerCase()}@upc.edu.pe`}
@@ -75,7 +75,7 @@ export const Team = () => {
                   {member.id.split(" ")[0].toLowerCase()}@upc.edu.pe
                 </a>
               </p>
-              <h4 className="text-sm font-semibold mt-4">Tags</h4>
+              <h4 className="text-sm font-semibold mt-4 mb-2">Tags</h4>
               <div className="flex flex-wrap">
                 {member.tags.map((tag, index) => (
                   <span
